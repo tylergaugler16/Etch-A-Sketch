@@ -1,0 +1,35 @@
+table{
+	width:100%;
+	background-color: white;
+	padding:40px;
+	/*margin-left:42%;*/
+}
+
+
+#myTable div{
+	height:100px;
+	background-color:purple;
+
+}
+
+.red{
+	background-color: red;
+}
+
+#container{
+	margin-left: 300px;
+	width:704px;
+	
+
+
+}
+form{
+	margin-left:200px;
+}
+#textbox{
+	margin-left:70px;
+}
+button{
+	margin-top: 10px;
+	margin-left: 310px;
+}
