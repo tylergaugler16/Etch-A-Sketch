@@ -21,8 +21,17 @@ $(document).ready(function(){
 	 });
 	
 	$('#myTable div').hover(function(){
+
+
+		var rand1=Math.floor(Math.random()*255);
+		var rand2=Math.floor(Math.random()*255);
+		var rand3=Math.floor(Math.random()*255);
 		
-		$(this).fadeTo(1000,0.5);
+		
+		$(this).css("background-color",'rgb('+rand1+','+rand2+','+rand3+')');
+
+	
+	
 
 	});
 	
